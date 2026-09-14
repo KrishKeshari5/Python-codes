@@ -1,0 +1,21 @@
+H = 'y'
+while H.lower() == 'y':
+    a = int(input('Enter a year: '))
+    if a % 400 == 0:
+        print('Yes it is a leap year')
+    elif a % 100 == 0:
+        print('No it is not a leap year')
+    elif a % 4 == 0:
+        print('Yes it is a leap year')
+    else:
+        print('No it is not a leap year')
+    
+    for i in range(0,1000):
+        H = input('If you want to play again type Y if you want to stop type N: ')
+        if (H == 'y' or H =='n'):
+            break
+        else:
+            H = input('Invalid Input ')
+            i=i+1
+
+    

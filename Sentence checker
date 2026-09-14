@@ -1,0 +1,18 @@
+a = input('Enter a sentence:').lower()
+g = 0 
+h = 0
+w = 0
+
+for l in a:  
+    if l == 'a' or l == 'e' or l == 'i' or l == 'o' or l == 'u':
+        g = g + 1
+    elif l == ' ':
+        w = w + 1
+    else:
+        h = h + 1
+
+print('Vowels', g)
+print('Consonants', h)
+print('Spaces', w)
+
+

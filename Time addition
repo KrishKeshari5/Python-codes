@@ -1,0 +1,7 @@
+from datetime import datetime, timedelta
+now = datetime.now()
+A = int(input("Enter days "))
+days = timedelta(days=A)
+print(now)
+timey = now + days
+print(timey)

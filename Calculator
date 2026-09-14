@@ -1,0 +1,16 @@
+print("Choose operation: +, - , *, /")
+operation = input("Operation: ")
+
+number1 = int(input("First number: "))
+number2 = int(input("Second number: "))
+if operation == "+":
+    result = number1 + number2
+elif operation == "-":
+    result = number1 - number2
+elif operation == "*":
+    result = number1 * number2
+elif operation == "/":
+    result = number1 / number2
+else:
+    result = "Invalid operation"
+print("Result:", result)

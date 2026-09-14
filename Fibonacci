@@ -1,0 +1,11 @@
+print("This is a program that prints fibonacci series : - ")
+d = int(input('How many numbers of the fibonacci series would you like to print:-'))
+a=0
+b=1
+c=1
+print(a, ",", b)
+for i in range(d):
+    print(c)
+    a=b
+    b=c
+    c= a + b

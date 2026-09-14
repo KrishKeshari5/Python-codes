@@ -1,0 +1,25 @@
+import turtle
+import random
+
+screen = turtle.Screen()
+screen.bgcolor('black')
+
+virus = turtle.Turtle()
+virus.speed(0)
+virus.pencolor('lime')
+virus.penup()
+virus.goto(0, 200)
+virus.pendown()
+
+a = 0
+b = 0
+
+while b < 200:
+    virus.forward(a)
+    virus.right(b)
+    a += 3
+    b += 1
+    if b % 10 == 0:
+        virus.dot(random.randint(10, 15), 'lime')
+
+turtle.exitonclick()

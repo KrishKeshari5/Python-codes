@@ -1,0 +1,5 @@
+a = input('Enter a sentence')
+if 'a' and 'e' and 'i' and 'o' and 'u' in a:
+    print(True)
+else:
+    print(False)
