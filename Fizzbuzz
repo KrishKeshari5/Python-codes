@@ -9,9 +9,3 @@ for i in range(num):
         print("fizz")
     else:
         print(i)
-
-
-
-
-
-
